@@ -10,7 +10,7 @@ import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
 
 //image
-import kltn from "src/assets/images/kltn.jpg";
+import basketball from "src/assets/images/basketball.jpg";
 
 const technologies = [
   "JavaScript",
@@ -86,7 +86,7 @@ const About = () => {
                 onClick={() => setModalImage(!modalImage)}
                 data-toggle="modal"
                 className="hover:cursor-pointer rounded-lg h-full object-cover"
-                src={kltn}
+                src={basketball}
                 alt="profileImg"
               />
             </div>
@@ -105,7 +105,7 @@ const About = () => {
             height={400}
             data-toggle="modal"
             className="rounded-lg w-[600px] object-cover"
-            src={kltn}
+            src={basketball}
             alt="profileImg"
           />
         </div>
