@@ -27,6 +27,7 @@ const projects: IProject[] = [
     ],
     fe_link: "",
     be_link: "",
+    figma: "",
     demo: "",
   },
 
@@ -48,6 +49,8 @@ const projects: IProject[] = [
     ],
     fe_link: "https://github.com/thuytrang10072001/CinemaManagement",
     be_link: "https://github.com/thuytrang10072001/CinemaManagement",
+    figma:
+      "https://www.figma.com/design/8BEC1n8fvbR0l1IW3pfTFv/ManageCinema?node-id=0-1",
     demo: "https://www.youtube.com/watch?v=6xstsOxaIpk/",
   },
 
@@ -69,6 +72,8 @@ const projects: IProject[] = [
     ],
     fe_link: "https://github.com/thuytrang10072001/android_toy_shop",
     be_link: "https://github.com/thuytrang10072001/android_toy_shop",
+    figma:
+      "https://www.figma.com/design/I8WwjFcIVMNwhW6dhe9vMM/Toy-Shop?node-id=0-1",
     demo: "https://www.youtube.com/watch?v=HccU2Sn2tHU",
   },
 ];

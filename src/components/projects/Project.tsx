@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 //icons
-import { TbBrandGithub } from "react-icons/tb";
+import { TbBrandGithub, TbBrandFigma } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
 import clsx from "clsx";
 import { IProject } from "src/interfaces/project";
@@ -58,6 +58,7 @@ const Project = (props: IProps) => {
           <div className="text-2xl flex gap-4">
             {project.fe_link && (
               <a
+                title="Github"
                 href={project.fe_link}
                 target="_blank"
                 className="hover:text-textGreen duration-300"
@@ -65,7 +66,7 @@ const Project = (props: IProps) => {
                 <TbBrandGithub />
               </a>
             )}
-            {project.be_link && (
+            {/* {project.be_link && (
               <a
                 href={project.be_link}
                 target="_blank"
@@ -73,9 +74,20 @@ const Project = (props: IProps) => {
               >
                 <TbBrandGithub />
               </a>
+            )} */}
+            {project.figma && (
+              <a
+                title="Figma"
+                href={project.figma}
+                target="_blank"
+                className="hover:text-textGreen duration-300"
+              >
+                <TbBrandFigma />
+              </a>
             )}
             {project.demo && (
               <a
+                title="Demo"
                 href={project.demo}
                 target="_blank"
                 className="hover:text-textGreen duration-300"

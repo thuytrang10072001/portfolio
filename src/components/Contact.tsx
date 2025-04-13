@@ -14,7 +14,7 @@ const Contact = () => {
         open. Whether you have a question or just want to say hi, I’ll try my
         best to get back to you!
       </p>
-      <a href="mailto:binbin18092003@gmail.com">
+      <a href="mailto:lethithuytrang20070805@gmail.com">
         <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-textGreen/20 duration-300">
           Say Hello
         </button>

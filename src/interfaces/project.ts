@@ -9,4 +9,5 @@ export interface IProject {
   be_link?: string;
   demo: string;
   width: number;
+  figma: string;
 }
