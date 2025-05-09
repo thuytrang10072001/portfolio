@@ -1,14 +1,33 @@
 //image
+import tcit from "src/assets/images/tcit.png";
 import pagev2Component from "src/assets/images/rjsf.png";
 import cinemaApp from "src/assets/images/management-cinema.png";
 import toyShopApp from "src/assets/images/toy-shop-e-commerce.png";
-import discordApp from "src/assets/images/discord.png";
-import footballApp from "src/assets/images/football.png";
-import organicApp from "src/assets/images/organic.png";
 
 import { IProject } from "src/interfaces/project";
 
 const projects: IProject[] = [
+  {
+    role: "Full Stack",
+    right: false,
+    image: tcit,
+    width: 800,
+    name: "Website TCIT",
+    description:
+      "Build a TCIT website using a custom CMS for flexible content management and dynamic page creation. Rendered pages using HTML templates and integrated them into a CMS system. Developed APIs, built interactive infrastructure maps with Annotorious, and created international maps using D3.js and GeoJSON.",
+    technologies: [
+      "Phalcon",
+      "Postgres",
+      "Gorm",
+      "GeoJSON",
+      "D3.js",
+      "Annotorious",
+    ],
+    fe_link: "",
+    be_link: "",
+    figma: "",
+    demo: "",
+  },
   {
     role: "Full Stack",
     right: true,
@@ -30,7 +49,6 @@ const projects: IProject[] = [
     figma: "",
     demo: "",
   },
-
   {
     role: "Full Stack",
     right: false,

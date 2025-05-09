@@ -100,10 +100,7 @@ const Menu = ({ handleScroll, setShowMenu }: Props) => {
               </motion.li>
             </Link>
           </ul>
-          <a
-            href="https://drive.google.com/file/d/1ZUaJ0q54fzBrE6afSOB8g2E7t5LT_lsx/view"
-            target="_blank"
-          >
+          <a href="" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -114,21 +111,18 @@ const Menu = ({ handleScroll, setShowMenu }: Props) => {
             </motion.button>
           </a>
           <div className="flex flex-row gap-4">
-            <a href="https://github.com/AnhQuoc189" target="=_blank">
+            <a href="https://github.com/thuytrang10072001" target="=_blank">
               <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 translate-all duration-300">
                 <TbBrandGithub />
               </span>
             </a>
-            <a
-              href="https://www.youtube.com/channel/UCbYT72rT32XyxUVdwy2ntYg"
-              target="=_blank"
-            >
+            <a href="https://www.youtube.com/@TrangLe-px5pf" target="=_blank">
               <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 translate-all duration-300">
                 <SlSocialYoutube />
               </span>
             </a>
             <a
-              href="https://www.linkedin.com/in/quoc-anh-907341291/"
+              href="https://www.linkedin.com/in/trang-l%C3%AA-41a36b35a/"
               target="=_blank"
             >
               <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 translate-all duration-300">
@@ -136,14 +130,14 @@ const Menu = ({ handleScroll, setShowMenu }: Props) => {
               </span>
             </a>
             <a
-              href="https://www.facebook.com/profile.php?id=100024539650227"
+              href="https://www.facebook.com/thuy.trang.770277"
               target="=_blank"
             >
               <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 translate-all duration-300">
                 <SlSocialFacebook />
               </span>
             </a>
-            <a href="https://www.instagram.com/aq18.09_t/" target="=_blank">
+            <a href="https://www.instagram.com/ltttrang_1007" target="=_blank">
               <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 translate-all duration-300">
                 <SlSocialInstagram />
               </span>
@@ -154,7 +148,7 @@ const Menu = ({ handleScroll, setShowMenu }: Props) => {
             href=""
             className="text-sm w-72 tracking-widest text-textGreen text-center mt-4"
           >
-            <p>binbin18092003@gmail.com</p>
+            <p>lethithuytrang20070805@gmail.com</p>
           </a>
         </div>
       </motion.div>
