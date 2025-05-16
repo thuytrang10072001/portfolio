@@ -113,7 +113,10 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <Link href="" target="_blank">
+          <Link
+            href="https://drive.google.com/file/d/1dGAjBE_oGuOY_psbChmmM1wJwqC8rM9Y/view?usp=sharing"
+            target="_blank"
+          >
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}

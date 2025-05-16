@@ -13,17 +13,20 @@ import { AiFillThunderbolt } from "react-icons/ai";
 import basketball from "src/assets/images/basketball.jpg";
 
 const technologies = [
+  "PHP",
   "JavaScript",
+  "TypeScript",
   "ReactJS",
   "React Native",
-  "PHP",
   "Phalcon",
+  "Docker",
   "PostgresSQL",
   "MySQL",
   "SQLServer",
   "Redux Toolkit",
   "Material-UI",
   "Bootstrap",
+  "Tailwindcss",
 ];
 
 const About = () => {
