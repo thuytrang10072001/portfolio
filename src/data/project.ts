@@ -12,9 +12,9 @@ const projects: IProject[] = [
     right: false,
     image: tcit,
     width: 800,
-    name: "Website TCIT",
+    name: "Container Terminal Website Project",
     description:
-      "A web-based platform for managing container terminal operation streamlining shipping route management and enhancing service quality at a major Vietnamese port",
+      "A web-based platform for managing container terminal operation streamlining shipping route management and enhancing service quality at a major Vietnamese port.",
     technologies: [
       "Phalcon",
       "Postgres",
@@ -33,7 +33,7 @@ const projects: IProject[] = [
     right: true,
     image: pagev2Component,
     width: 800,
-    name: "Page v2 Component Development",
+    name: "Content Management System",
     description:
       "A web-based content management system allowing users to dynamically create, edit, and manage website content efficiently.",
     technologies: [
