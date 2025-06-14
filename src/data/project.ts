@@ -14,7 +14,7 @@ const projects: IProject[] = [
     width: 800,
     name: "Website TCIT",
     description:
-      "Build a TCIT website using a custom CMS for flexible content management and dynamic page creation. Rendered pages using HTML templates and integrated them into a CMS system. Developed APIs, built interactive infrastructure maps with Annotorious, and created international maps using D3.js and GeoJSON.",
+      "A web-based platform for managing container terminal operation streamlining shipping route management and enhancing service quality at a major Vietnamese port",
     technologies: [
       "Phalcon",
       "Postgres",
@@ -35,7 +35,7 @@ const projects: IProject[] = [
     width: 800,
     name: "Page v2 Component Development",
     description:
-      "Page v2 is a component for website management that allows users to create, organize, and customize sections with ease, including drag-and-drop functionality and the ability to copy or reference sections from other pages. It is built using ReactJS and integrated into the company's PHP-based CMS system.",
+      "A web-based content management system allowing users to dynamically create, edit, and manage website content efficiently.",
     technologies: [
       "ReactJS",
       "Phalcon",
