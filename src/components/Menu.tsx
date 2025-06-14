@@ -101,7 +101,7 @@ const Menu = ({ handleScroll, setShowMenu }: Props) => {
             </Link>
           </ul>
           <a
-            href="https://drive.google.com/file/d/1dGAjBE_oGuOY_psbChmmM1wJwqC8rM9Y/view?usp=sharing"
+            href="https://drive.google.com/file/d/1y9qnAJbdt95zYb6N-RMezlGeOeoDfS1j/view?usp=sharing"
             target="_blank"
           >
             <motion.button
